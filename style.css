@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(244, 208, 78);
+}
+
+main{
+    background-color: white;
+    width: 300px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10vh;
+    box-shadow: 10px 10px 5px 0 black ;
+}
+
+button{
+    font-weight: 700;
+    text-transform: capitalize;
+    width: max-content;
+    padding: 5px 20px;
+    background-color:rgb(244, 208, 78) ;
+    border: none;
+
+
+/* 
+    padding: t r b l;
+
+    padding: y x ;
+
+    padding-block:y1 y2;
+
+    padding-inline:x1 x2 ; */
+
+}
+
+main>img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+p.grey_text{
+    color: grey;
+    font-size: larger;
+}
+
+main>div{
+    display: flex;
+    align-items: center;
+    color: rgb(102, 170, 7);
+    gap: 5px;
+}
